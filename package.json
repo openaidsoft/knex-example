@@ -11,8 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "knex": "^0.21.1",
-    "mysql2": "^2.1.0",
-    "pg": "^8.2.1"
+    "better-sqlite3": "^7.5.3",
+    "knex": "^2.1.0",
+    "mysql2": "^2.3.3",
+    "oracledb": "^5.4.0"
   }
 }
