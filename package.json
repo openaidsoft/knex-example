@@ -11,9 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "better-sqlite3": "^7.5.3",
-    "knex": "^2.1.0",
-    "mysql2": "^2.3.3",
-    "oracledb": "^5.4.0"
+    "better-sqlite3": "^8.1.0",
+    "knex": "^2.4.2",
+    "mysql2": "^3.1.2",
+    "oracledb": "^5.5.0"
   }
 }

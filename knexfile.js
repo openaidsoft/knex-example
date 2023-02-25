@@ -1,16 +1,16 @@
 // Update with your config settings.
 
-const oracledb = require('oracledb');
-try {
-  // oracledb.initOracleClient({libDir: '/Users/soriwa/Project/db/oracle-instant-client/instantclient_11_2'});
-  // oracledb.initOracleClient({libDir: '/usr/local/lib'});
-  oracledb.initOracleClient({libDir: '/Users/soriwa/Downloads/instantclient_19_8'});
-  // oracledb.initOracleClient({libDir: '/Users/soriwa/Project/db/oracle-instant-client/instantclient_19_8'});
-} catch (err) {
-  console.error('Whoops!');
-  console.error(err);
-  process.exit(1);
-}
+// const oracledb = require('oracledb');
+// try {
+//   // oracledb.initOracleClient({libDir: '/Users/soriwa/Project/db/oracle-instant-client/instantclient_11_2'});
+//   // oracledb.initOracleClient({libDir: '/usr/local/lib'});
+//   oracledb.initOracleClient({libDir: '/Users/soriwa/Downloads/instantclient_19_8'});
+//   // oracledb.initOracleClient({libDir: '/Users/soriwa/Project/db/oracle-instant-client/instantclient_19_8'});
+// } catch (err) {
+//   console.error('Whoops!');
+//   console.error(err);
+//   process.exit(1);
+// }
 
 
 
@@ -43,10 +43,11 @@ module.exports = {
   development: {
     client: 'oracledb',
     connection: {
-      host : '127.0.0.1',
-      user : 'system',
-      password : 'oracle',
-      database : 'xe',
+      host: '127.0.0.1',
+      port: 1120,
+      user: 'demo',
+      password: 'demo',
+      database: 'xe',
     }
   },
 
